@@ -1,3 +1,11 @@
+* {
+   cursor: url("isia.jpg"), auto;
+}
+
+img:hover {
+  cursor: url("isia2.png"), auto;
+}
+
 body{
   background-color: rgb(24,243,120);
 }
@@ -25,3 +33,31 @@ text-transform: uppercase;
 }
 img {
   border: 5px dotted
+}
+
+  div.titoli {
+    background-color: lightblue;
+    padding:30px;
+  }
+
+  div.due {
+    background-color: red;
+    margin-bottom:20px;
+}
+div.tre {
+  background-color: orange;
+  margin-bottom:20px;
+}
+div.contenitorediv {
+  border: 3px solid blue;
+display:flex;
+}
+div.titoli {
+  width:40%;
+}
+div.due {
+  width:35%;
+}
+div.tre {
+  width:45%;
+}

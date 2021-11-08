@@ -1,57 +1,76 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">               <!-- right to left rtl che è il verso della pagina viceversa ltr left to right -->
+<html lang="en" dir="ltr">
+<!-- right to left rtl che è il verso della pagina viceversa ltr left to right -->
 
-  <head>
-    <meta charset="utf-8">
-    <title>titolo della pagina</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <!-- così si crea un commento -->
-    <h1>heading 1: titolazione 1 titolo più importante pagina</h1>
-    <h2> tipo </h2>
-      <h3> tipo </h2>
-        <h4> tipo </h4>
-          <h5> tipo </h5>
-            <h6> tipo </h6>
-            <p>  <em> questo è un testo in italic, </em>
-              <strong>questo è un testo in bold</strong>,
-              <p> questo è un paragrafo  </p>
-            <p> questo è un <a href="https://www.isiafaenza.it/">link</a>.</p>
-              <img src="http://www.isiafaenza.it/wp-content/uploads/2015/11/facciata-ISIA-300x199.jpg" /> <br>   <!-- br ti fa andare a capo -->
-              <!-- questo è il modo di mettere le immagini: titolo giusto file(nome)+ estensione (jpg) -->
-                <img src="http://www.isiafaenza.it/wp-content/uploads/2015/11/facciata-ISIA-300x199.jpg"  width="10%"/>
-                <!-- questo è il modo di mettere le immagini in modo che siamo di una certa dimenzione rispettoallo schermo -->
-                  <img src="http://www.isiafaenza.it/wp-content/uploads/2015/11/facciata-ISIA-300x199.jpg"  width="50"/>
-                  <!-- questo è il modo di mettere le immagini in modo che siamo di una certa dimensione costante -->
-                  <p class="blu"> questo è un paragrafo blu.</p>
-                  <p class="verde"> questo è un paragrafo verde.</p>
-                  <p>lista puntata</p>
+<head>
+  <meta charset="utf-8">
+  <title>titolo della pagina</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap" rel="stylesheet">
+</head>
 
-<ul>
-<li>mele</li>
-<li>arancie</li>
-<li>pere</li>
-</ul>
+<body>
 
-<p>lista numerata</p>
+<div class="contenitorediv">
 
-<ol>
-<li>carote</li>
-<li>arancie</li>
-<li>pere</li>
-</ol>
+  <div class="titoli">
+    <h1>ISTITUTO SUPERIORE PER LE INDUSTRIE ARTISTICHE DI FAENZA</h1>
+    <h2> Design e comunicazione </h2>
+    <h3> Corsi accademici di primo e secondo livello </h2>
+      <h4> istituto AFAM </h4>
+      <h5> ISIAF </h5>
+      <h6> Corso Giuseppe Mazzini Faenza (RA) </h6>
+  </div>
+  <div class="due">
+    <p> <em> questo è un testo in italic,
+      L'Istituto superiore per le industrie artistiche di Faenza è un istituto statale di alta formazione nel campo del design. È uno dei quattro ISIA che in Italia da più di trent'anni si occupano di ricerca e sperimentazione nel settore del design, e che costituiscono una nicchia di eccellenza nel sistema universitario. </em>
+      <strong>questo è un testo in bold
+      Fondato nel 1980 con lo scopo originario di completare gli studi orientati al settore ceramico con una formazione di tipo avanzato, l’Istituto ha da tempo allargato la sua sfera d’azione a tutta la complessa area del Design e della Comunicazione. E’ stato mantenuto un riferimento particolare sia alla ricerca formale e sia alla ricerca tecnologica avanzata in collegamento con l’ambito produttivo ceramico e la tradizione culturale della città di Faenza.</strong>,
+    <p> questo è un paragrafo
+      L’Istituto gode del diritto, riconosciuto alle Istituzioni di Alta cultura, di darsi ordinamenti autonomi e organi eletti dai Professori e dagli Studenti. Ne consegue autonomia nella scelta dei docenti, nella creazione dei piani di studio e di ricerca e nello sviluppo delle iniziative di collegamento con industrie ed enti.
+  L’ISIA è guidato da un Consiglio d’Amministrazione con competenze finanziarie e da un Consiglio Accademico con competenze nel campo della didattica e della ricerca. </p>
+  </div>
+  <div class="tre">
+    <p> questo è un <a href="https://www.isiafaenza.it/">link, sito Isia</a>.</p>
+    <img src="http://www.isiafaenza.it/wp-content/uploads/2015/11/facciata-ISIA-300x199.jpg" /> <br>
 
-<ul class="menu">
+<!-- chiude  tutti i div
+  <!br ti fa andare a capo -->
+  <!-- questo è il modo di mettere le immagini: titolo giusto file(nome)+ estensione (jpg) -->
+  <img src="http://www.isiafaenza.it/wp-content/uploads/2015/11/facciata-ISIA-300x199.jpg" width="10%" />
+  <!-- questo è il modo di mettere le immagini in modo che siamo di una certa dimenzione rispettoallo schermo -->
+  <img src="http://www.isiafaenza.it/wp-content/uploads/2015/11/facciata-ISIA-300x199.jpg" width="50" />
+  <!-- questo è il modo di mettere le immagini in modo che siamo di una certa dimensione costante -->
+  <p class="blu"> questo è un paragrafo blu.</p>
+  <p class="verde"> questo è un paragrafo verde.</p>
+  <p>lista puntata</p>
+  <ul>
+    <li>Design</li>
+    <li>Comunicazione</li>
+    <li>Prodotto</li>
+  </ul>
 
-<li> <a href="#">mele</a></li>
-<li> <a href="#">arance</a></li>
-<li> <a href="#">pere</a></li>
-</ul>
-  </body>
+  <p>lista numerata</p>
+
+  <ol>
+    <li>Design</li>
+    <li>Comunicazione</li>
+    <li>Prodotto</li>
+  </ol>
+
+  <ul class="menu">
+
+    <li> <a href="#">Design</a></li>
+    <li> <a href="#">Comunicazione</a></li>
+    <li> <a href="#">Prodotto</a></li>
+  </ul>
+</div>
+</div>
+
+</body>
+
 </html>
