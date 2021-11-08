@@ -1,0 +1,27 @@
+body{
+  background-color: rgb(24,243,120);
+}
+    h1
+    {color:white;
+    font-family: 'helvetica', bold;
+    }
+.verde {color: green}
+.blu {color: blue}
+.menu li {
+  display: inline;
+  padding: 10px 20px 5px 3px;
+  border-right: 2px solid black;
+font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+}
+.menu li a {
+  color: black;
+}
+.menu li a {
+  color:black;
+}
+.menu li:last-of-type {
+  border: 0;
+}
+img {
+  border: 5px dotted
